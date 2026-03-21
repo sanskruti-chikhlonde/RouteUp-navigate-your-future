@@ -1,0 +1,76 @@
+* 
+
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.8;
+    color: darkblue;
+}
+
+/* Sections */
+section {
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Titles */
+section h2 {
+    margin-bottom: 15px;
+}
+
+/* About */
+.about p {
+    line-height: 1.8;
+    color: darkblue;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background:blue ;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+}
+
+
+/* Responsive */
+@media(max-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
