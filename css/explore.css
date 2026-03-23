@@ -5,6 +5,7 @@ body{
 .intro {
     text-align: center;
     padding: 40px 20px 20px;
+    margin-top: 100px;
 }
 .intro h1 {
     font-size: 32px;
@@ -61,7 +62,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-    gap: 50px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 

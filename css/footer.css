@@ -1,84 +1,137 @@
-.footer {
-    background: #020617;
-    padding: 60px 60px 20px;
-    color: #cbd5f5;
+body{
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    width: 100%;
+    background: #ffffff;
+    border-top: 1px solid #fff7ed;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .footer-container {
+    width: 100%;
+   
+    margin: auto;
+
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
 }
 
-.footer h2, .footer h4 {
-    color: #ffffff;
-    margin-bottom: 10px;
+/* Logo */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #7c2d12;
 }
 
+.footer-logo img {
+    width: 62px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+.footer h4 {
+    margin-bottom: 30px;
+    color: #7c2d12;
+    font-size: 18px;
+}
+
+/* Text */
 .footer p {
-    font-size: 14px;
-    color: #94a3b8;
+    color:#f97316;
+    font-size: 16px;
 }
 
 /* Links */
-.footer-links {
+.footer a {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color:#f97316;
+    margin-bottom: 6px;
+    transition: 0.3s;
+    font-size: 16px;
 }
 
-.footer-links a {
-    text-decoration: none;
-    color: #94a3b8;
-    margin-bottom: 8px;
-    font-size: 14px;
+/* Link Icons */
+.footer a i {
+    color: #f97316;
+    font-size: 16px;
+}
+
+/* Hover Effects */
+.footer a:hover {
+    color: #ea580c;
+}
+
+.footer a:hover i {
+    transform: translateX(3px);
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 16px;
+    color: #f97316;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.footer-links a:hover {
-    color: #ffffff;
-}
-
-/* Social */
-.social-icons {
-    display: flex;
-    gap: 15px;
-    font-size: 18px;
-    margin-top: 10px;
+.social-icons i:hover {
+    color: #ea580c;
+    transform: translateY(-3px);
 }
 
 /* Bottom */
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    margin-top: 40px;
-    padding-top: 15px;
-    font-size: 13px;
-    color: #64748b;
+    margin-top: 0px;
+    padding: 5px 0;
+    border-top: 1px solid #fff7ed;
+    font-size: 16px;
+}.footer-bottom p{
+    color: #7c2d12;
+    font-size: 18px;
 }
 
-/* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
 
-    .hero-split {
+@media (max-width: 760px) {
+.footer-container {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer-links a {
+        justify-content: center;
+    }
+
+    .footer-logo {
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer h4 {
         text-align: center;
     }
 
-    .hero-image,
-    .hero-content {
-        width: 100%;
-    }
-
-    .career-card {
-        right: 20px;
-        top: auto;
-        bottom: -20px;
-        transform: none;
-    }
-
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
+    .footer-bottom {
+        font-size: 12px;
     }
 }

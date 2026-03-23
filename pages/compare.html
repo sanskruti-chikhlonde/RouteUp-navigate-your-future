@@ -5,20 +5,182 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Career Comparison</title>
 <link rel="stylesheet" href="./../css/compare.css">
-
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="stylesheet" href="./../css/navbar.css">
+  <link rel="stylesheet" href="./../css/footer.css">
 </head>
 
-<body>
+ <body class="main">
+ <nav class="navbar">
+     <div class="logo-container">
+                <img src="./../images/logo.png" alt="logo" class="logo">
+                <h1>Route<span class="Up">Up</span></h1>
+            </div>
 
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <label for="menu-toggle" class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    
+    <ul class="nav-links">
+    <li><a href="./index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a href="./pages/explore.html"><i class="fa-solid fa-compass"></i> Explore</a></li>
+    <li><a href="./pages/compare.html"><i class="fa-solid fa-code-compare"></i></i></i> Compare</a></li>
+    <li><a href="./pages/quiz.html"><i class="fa-solid fa-circle-question"></i> Quiz</a></li>
+    <li><a href="./pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a></li>
+</ul>
+</nav>
 <header>
   <h1>Career Comparison</h1>
   <p>Compare all career paths visually</p>
 </header>
+
+<div class="compare-box">
+
+   <div class="left-side">
+
+    <img src="./../images/point.png" alt="career">
+
+    <h3>Choose Your Career</h3>
+    <p>
+        Explore different career paths and find the best option for your future.
+        Compare opportunities, growth, and skills easily.
+    </p>
+
+   
+
+</div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right-side">
+
+
+<div class="compare-controls">
+
+  <h3>Select Career 1</h3>
+  <div class="group">
+
+    <input type="radio" name="c1" id="it1">
+    <label for="it1" class="career-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <span>IT</span>
+    </label>
+
+    <input type="radio" name="c1" id="law1">
+    <label for="law1" class="career-card">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <span>Law</span>
+    </label>
+
+    <input type="radio" name="c1" id="business1">
+    <label for="business1" class="career-card">
+        <i class="fa-solid fa-briefcase"></i>
+        <span>Business</span>
+    </label>
+
+    <input type="radio" name="c1" id="medical1">
+    <label for="medical1" class="career-card">
+        <i class="fa-solid fa-user-doctor"></i>
+        <span>Medical</span>
+    </label>
+
+    <input type="radio" name="c1" id="finance1">
+    <label for="finance1" class="career-card">
+        <i class="fa-solid fa-coins"></i>
+        <span>Finance</span>
+    </label>
+
+    <input type="radio" name="c1" id="marketing1">
+    <label for="marketing1" class="career-card">
+        <i class="fa-solid fa-bullhorn"></i>
+        <span>Marketing</span>
+    </label>
+
+    <input type="radio" name="c1" id="science1">
+    <label for="science1" class="career-card">
+        <i class="fa-solid fa-flask"></i>
+        <span>Science</span>
+    </label>
+
+    <input type="radio" name="c1" id="design1">
+    <label for="design1" class="career-card">
+        <i class="fa-solid fa-palette"></i>
+        <span>Design</span>
+    </label>
+
+    <input type="radio" name="c1" id="travel1">
+    <label for="travel1" class="career-card">
+        <i class="fa-solid fa-plane"></i>
+        <span>Travel</span>
+    </label>
+
+</div>
+<h3>Select Career 2</h3>
+<div class="group">
+
+    <input type="radio" name="c2" id="it2">
+    <label for="it2" class="career-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <span>IT</span>
+    </label>
+
+    <input type="radio" name="c2" id="law2">
+    <label for="law2" class="career-card">
+        <i class="fa-solid fa-scale-balanced"></i>
+        <span>Law</span>
+    </label>
+
+    <input type="radio" name="c2" id="business2">
+    <label for="business2" class="career-card">
+        <i class="fa-solid fa-briefcase"></i>
+        <span>Business</span>
+    </label>
+
+    <input type="radio" name="c2" id="medical2">
+    <label for="medical2" class="career-card">
+        <i class="fa-solid fa-user-doctor"></i>
+        <span>Medical</span>
+    </label>
+
+    <input type="radio" name="c2" id="finance2">
+    <label for="finance2" class="career-card">
+        <i class="fa-solid fa-coins"></i>
+        <span>Finance</span>
+    </label>
+
+    <input type="radio" name="c2" id="marketing2">
+    <label for="marketing2" class="career-card">
+        <i class="fa-solid fa-bullhorn"></i>
+        <span>Marketing</span>
+    </label>
+
+    <input type="radio" name="c2" id="science2">
+    <label for="science2" class="career-card">
+        <i class="fa-solid fa-flask"></i>
+        <span>Science</span>
+    </label>
+
+    <input type="radio" name="c2" id="design2">
+    <label for="design2" class="career-card">
+        <i class="fa-solid fa-palette"></i>
+        <span>Design</span>
+    </label>
+
+    <input type="radio" name="c2" id="travel2">
+    <label for="travel2" class="career-card">
+        <i class="fa-solid fa-plane"></i>
+        <span>Travel</span>
+    </label>
+
+</div>
+</div>
+    </div>
+</div>
 <div class="container">
 
 <!-- 1. IT -->
-<div class="card ">
+<div class="card it">
   <div class="score">9.5</div>
  <img src="./../images/tech.png" alt="">
   <h2>Technology & IT</h2>
@@ -40,7 +202,7 @@
 </div>
 
 <!-- 2. LAW -->
-<div class="card">
+<div class="card law">
   <div class="score">9.3</div>
   <img src="https://newstrailindia.com/admin/uploads/1751794332_image31.jpg">
   <h2>Law & Government</h2>
@@ -61,7 +223,7 @@
 </div>
 
 <!-- 3. BUSINESS -->
-<div class="card ">
+<div class="card business">
   <div class="score">9.2</div>
   <img src="https://c8.alamy.com/comp/M7PWGM/successful-businessman-and-his-business-team-meeting-in-a-modern-office-M7PWGM.jpg">
   <h2>Business & Management</h2>
@@ -82,7 +244,7 @@
 </div>
 
 <!-- 4. HEALTHCARE -->
-<div class="card">
+<div class="card medical">
   <div class="score">9.1</div>
   <img src="https://t4.ftcdn.net/jpg/05/65/56/27/360_F_565562740_jHegLFarCjdsS2SUEV83WPwj9htvf1QX.jpg">
   <h2>Healthcare & Medical</h2>
@@ -103,7 +265,7 @@
 </div>
 
 <!-- 5. FINANCE -->
-<div class="card">
+<div class="card finance">
   <div class="score">9.0</div>
  <img src="https://tgg-accounting.com/wp-content/uploads/2024/07/ai-financial-advisor.jpeg" alt="">
   <h2>Finance & Accounting</h2>
@@ -124,7 +286,7 @@
 </div>
 
 <!-- 6. MARKETING -->
-<div class="card">
+<div class="card marketing">
   <div class="score">8.0</div>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVt1nfTrm57mEW-D3p8W4tfIpUIAqhyBtZ__hI_c6VuA&s&ec=121585071" alt="">
   <h2>Marketing & Media</h2>
@@ -145,7 +307,7 @@
 </div>
 
 <!-- 7. SCIENCE -->
-<div class="card">
+<div class="card science">
   <div class="score">7.8</div>
   <img src="https://t4.ftcdn.net/jpg/02/46/77/29/360_F_246772962_qHJsTucirASR4D77EhhdMDYqVgMKqwPW.jpg" alt="">
   <h2>Science & Research</h2>
@@ -166,7 +328,7 @@
 </div>
 
 <!-- 8. DESIGN -->
-<div class="card">
+<div class="card design">
   <div class="score">7.5</div>
   <img src="https://media.istockphoto.com/id/1483745473/photo/graphic-designer-works-on-computer-laptop-with-digital-pen-scrutinize.jpg?s=612x612&w=0&k=20&c=8MDBMQ3UNT4hsp0zMNwRpRqYxBEGWHWfKFuaYCG_YCQ=" alt="">
   <h2>Design & Creative Arts</h2>
@@ -187,7 +349,7 @@
 </div>
 
 <!-- 9. TRAVEL -->
-<div class="card">
+<div class="card travel">
   <div class="score">7.0</div>
   <img src="https://media.istockphoto.com/id/1484358444/photo/receptionist-talking-customers-at-hotel-lobby.jpg?s=612x612&w=0&k=20&c=HNNRiBUDwh8N9QbA-SN8StxrQBqUzxPZoPMRImu6VVs=" alt="">
   <h2>Travel & Hospitality</h2>
@@ -208,54 +370,105 @@
 </div>
 </div>
 <section class="top3">
-  <h2>🏆 Top 3 Careers</h2>
+  <h2><i class="fa-solid fa-trophy"></i> Top 3 Careers</h2>
 
   <div class="top3-container">
 
     <div class="top3-card">
-      <span class="medal">🥇</span>
+      <span class="medal rank1">1</span>
       <h3>Technology & IT</h3>
       <p>Best for high salary, strong demand, and future growth.</p>
     </div>
 
     <div class="top3-card">
-      <span class="medal">🥈</span>
+      <span class="medal rank2">2</span>
       <h3>Law & Government</h3>
       <p>Best for authority, respect, and stable government jobs.</p>
     </div>
 
     <div class="top3-card">
-      <span class="medal">🥉</span>
+      <span class="medal rank3">3</span>
       <h3>Business & Management</h3>
       <p>Best for leadership, entrepreneurship, and business growth.</p>
     </div>
 
   </div>
 </section>
+<!-- RECOMMEND -->
 <section class="recommend">
-  <h2>🎯 Which Career is Best for You?</h2>
+  <h2><i class="fa-solid fa-bullseye"></i> Which Career is Best for You?</h2>
 
   <div class="rec-container">
 
     <div class="rec-card">
-      <h3>💻 For Tech Lovers</h3>
+      <h3><i class="fa-solid fa-laptop-code"></i> For Tech Lovers</h3>
       <p>If you enjoy coding, problem-solving, and technology →</p>
       <strong>Technology & IT</strong>
     </div>
 
     <div class="rec-card">
-      <h3>⚖️ For Government & Law</h3>
+      <h3><i class="fa-solid fa-scale-balanced"></i> For Government & Law</h3>
       <p>If you want authority, respect, and public service →</p>
       <strong>Law & Government</strong>
     </div>
 
     <div class="rec-card">
-      <h3>📊 For Business Minds</h3>
+      <h3><i class="fa-solid fa-chart-line"></i> For Business Minds</h3>
       <p>If you like leadership, management, and startups →</p>
       <strong>Business & Management</strong>
     </div>
-
   </div>
 </section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+            <h2 class="footer-logo">
+                <img src="./../images/logo.png" alt="RouteUp Logo">
+                RouteUp
+            </h2>
+            <p>Navigate your future with clarity and confidence.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+             <a href="./pages/about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+            <a href="./pages/about.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </div>
+
+        <!-- Company -->
+        <div class="footer-links">
+            <h4>Career Tools</h4>
+             <a href="./pages/explore.html"><i class="fa-solid fa-compass"></i> Explore</a>
+            <a href="./pages/compare.html"><i class="fa-solid fa-code-compare"></i> Compare</a>
+            <a href="./pages/quiz.html"><i class="fa-solid fa-circle-question"></i> Quiz</a>
+           
+        </div>
+
+        <!-- Social -->
+        <div class="footer-social">
+            <h4>Connect</h4>
+            <p>Stay updated with us</p>
+            <div class="social-icons">
+                <a href="./pages/https://www.linkedin.com/in/sanskruti-chikhlonde-042a4b374?utm_source=share_via&utm_content=profile&utm_medium=member_android"> <i class="fa-solid fa-globe"></i></a>
+               <a href="https://www.instagram.com/sanskruti_chikhlonde?igsh=eWk3d3BjcjR4eWlh"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sanskruti-chikhlonde-042a4b374?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sanskruti-chikhlonde"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+        <p>© 2026 RouteUp. All rights reserved.</p>
+    </div>
+
+</footer>
 </body>
 </html>
