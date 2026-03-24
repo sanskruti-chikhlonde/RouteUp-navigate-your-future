@@ -225,26 +225,6 @@ body{
     transform:scale(1.03);
 }
 
-/* CTA */
-.cta{
-    text-align:center;
-    padding:60px 20px;
-}
-
-.cta a{
-    display:inline-block;
-    margin-top:10px;
-    background:#ea580c;
-    color:white;
-    padding:12px 25px;
-    border-radius:10px;
-    text-decoration:none;
-}
-
-.cta a:hover{
-    background:#c2410c;
-}
-
 /* INPUT BOX WRAPPER */
 .input-box{
     position:relative;
